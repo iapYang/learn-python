@@ -1,8 +1,5 @@
-def make_incrementor(n):
-    answer = lambda x: x + n
-    return answer
+#!/usr/bin/env python3
 
-f = make_incrementor(42)
-print(f(0))
-f(0)
-f(1)
+name = input('please input your name: ')
+
+print("Hello", name, "!")

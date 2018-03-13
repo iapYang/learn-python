@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
+variableList = ['AS', 123, ['XXX']]
 
-name = input('please input your name: ')
+# tuple类型，一旦设定就不能修改
 
-print("Hello", name, "!")
+

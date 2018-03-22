@@ -20,12 +20,12 @@ def find_max_and_min(l):
     for values in l:
         if max_value is None:
             max_value = values
-        elif max_value < value:
+        elif max_value < values:
             max_value = values
 
         if min_value is None:
             min_value = values
-        elif value < min_value:
+        elif values < min_value:
             min_value = values
 
     return min_value, max_value

@@ -13,32 +13,32 @@ for x, y in [(1, 1), (3, 5), (6, 8)]:
     print(x, y)
 
 
-def findMinAndMax(L):
-    max = None
-    min = None
+def find_max_and_min(l):
+    max_value = None
+    min_value = None
 
-    for value in L:
-        if max is None:
-            max = value
-        elif max < value:
-            max = value
+    for values in l:
+        if max_value is None:
+            max_value = values
+        elif max_value < value:
+            max_value = values
 
-        if min is None:
-            min = value
-        elif value < min:
-            min = value
+        if min_value is None:
+            min_value = values
+        elif value < min_value:
+            min_value = values
 
-    return min, max
+    return min_value, max_value
 
 
 # 测试
-if findMinAndMax([]) != (None, None):
+if find_max_and_min([]) != (None, None):
     print('测试失败!')
-elif findMinAndMax([7]) != (7, 7):
+elif find_max_and_min([7]) != (7, 7):
     print('测试失败!')
-elif findMinAndMax([7, 1]) != (1, 7):
+elif find_max_and_min([7, 1]) != (1, 7):
     print('测试失败!')
-elif findMinAndMax([7, 1, 3, 9, 5]) != (1, 9):
+elif find_max_and_min([7, 1, 3, 9, 5]) != (1, 9):
     print('测试失败!')
 else:
     print('测试成功!')

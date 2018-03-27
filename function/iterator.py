@@ -1,44 +1,11 @@
 #!/usr/bin/env python3
 
-from collections import Iterable
+from collections import Iterable, Iterator
 
-print(isinstance('abc', Iterable))
-print(isinstance([1, 2, 4], Iterable))
-print(isinstance(123, Iterable))
+isinstance([], Iterable)
+isinstance((x for x in range(10)), Iterator)
 
-for i, value in enumerate(['A', 'B', 'C']):
-    print(i, value)
-
-for x, y in [(1, 1), (3, 5), (6, 8)]:
-    print(x, y)
-
-
-def find_max_and_min(l):
-    max_value = None
-    min_value = None
-
-    for values in l:
-        if max_value is None:
-            max_value = values
-        elif max_value < values:
-            max_value = values
-
-        if min_value is None:
-            min_value = values
-        elif values < min_value:
-            min_value = values
-
-    return min_value, max_value
-
-
-# 测试
-if find_max_and_min([]) != (None, None):
-    print('测试失败!')
-elif find_max_and_min([7]) != (7, 7):
-    print('测试失败!')
-elif find_max_and_min([7, 1]) != (1, 7):
-    print('测试失败!')
-elif find_max_and_min([7, 1, 3, 9, 5]) != (1, 9):
-    print('测试失败!')
-else:
-    print('测试成功!')
+# 生成器都是Iterator对象，但list、dict、str虽然是Iterable，却不是Iterator。
+# Iterable可迭代对象，即可使用for循环，可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterator
+# 集合数据类型如list、dict、str等是Iterable但不是Iterator，不过可以通过iter()函数获得一个Iterator对象。
+# Python的for循环本质上就是通过不断调用next()函数实现的

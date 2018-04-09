@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0afff5d-e8b1-46db-a53f-c54490926cab" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/functional-programming/decorator.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/functional-programming/partial.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,12 @@
     <SUITE FILE_PATH="coverage/learn_python$return_function.coverage" NAME="return-function Coverage Results" MODIFIED="1523191930072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1523191933998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$generator.coverage" NAME="generator Coverage Results" MODIFIED="1522158195829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learn_python$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1523272675513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1523273623782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$iterator.coverage" NAME="iterator Coverage Results" MODIFIED="1521685986151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$mapreduce.coverage" NAME="mapreduce Coverage Results" MODIFIED="1522242895250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$sort.coverage" NAME="sort Coverage Results" MODIFIED="1522328656296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$learn.coverage" NAME="learn Coverage Results" MODIFIED="1521681806019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python$functools.coverage" NAME="functools Coverage Results" MODIFIED="1523276679811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$iterator__1_.coverage" NAME="iterator (1) Coverage Results" MODIFIED="1522240330725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$listcompr.coverage" NAME="listcompr Coverage Results" MODIFIED="1522155176086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -47,11 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decorator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="decorator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functional-programming/decorator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="217">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partial.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functional-programming/partial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -108,6 +119,8 @@
         <option value="$PROJECT_DIR$/functional-programming/return-function.py" />
         <option value="$PROJECT_DIR$/functional-programming/lambda.py" />
         <option value="$PROJECT_DIR$/functional-programming/decorator.py" />
+        <option value="$PROJECT_DIR$/functional-programming/functools.py" />
+        <option value="$PROJECT_DIR$/functional-programming/partial.py" />
       </list>
     </option>
   </component>
@@ -118,6 +131,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1440" />
+    <option name="y" value="138" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -192,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.decorator">
+  <component name="RunManager" selected="Python.functools">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,7 +277,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="functools" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -275,7 +290,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional-programming/high-order-function/filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional-programming/partial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,19 +374,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.learn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.filter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.return-function" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lambda" />
-      <item index="5" class="java.lang.String" itemvalue="Python.decorator" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.return-function" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lambda" />
+      <item index="4" class="java.lang.String" itemvalue="Python.decorator" />
+      <item index="5" class="java.lang.String" itemvalue="Python.functools" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.decorator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lambda" />
-        <item index="2" class="java.lang.String" itemvalue="Python.return-function" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sort" />
-        <item index="4" class="java.lang.String" itemvalue="Python.filter" />
+        <item index="0" class="java.lang.String" itemvalue="Python.functools" />
+        <item index="1" class="java.lang.String" itemvalue="Python.decorator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lambda" />
+        <item index="3" class="java.lang.String" itemvalue="Python.return-function" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sort" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523191962205</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="learn decorator">
+      <created>1523272706321</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1523272706321</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -556,7 +578,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1440" y="138" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -659,7 +681,8 @@
     <MESSAGE value="learn sort" />
     <MESSAGE value="learn return function" />
     <MESSAGE value="learn lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn lambda" />
+    <MESSAGE value="learn decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn decorator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,14 +735,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function/usage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -1088,8 +1103,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functional-programming/decorator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state relative-caret-position="217">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional-programming/partial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>

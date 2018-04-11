@@ -3,20 +3,10 @@
 
 __author__ = 'IAPYANG'
 
+from student import Student
 
-class Student(object):
+bart = Student('Bart Simpson', 59)
 
-    def __init__(self, name, score):
-        self.name = name
-        self.score = score
+bart.print_score()
 
-    def print_score(self):
-        print('%s: %s' % (self.name, self.score))
 
-    def get_grade(self):
-        if self.score >= 90:
-            return 'A'
-        elif self.score >= 60:
-            return 'B'
-        else:
-            return 'C'

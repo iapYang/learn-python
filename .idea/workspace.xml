@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0afff5d-e8b1-46db-a53f-c54490926cab" name="Default" comment="learn error">
-      <change beforePath="" afterPath="$PROJECT_DIR$/oop_advance/mydict.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/oop_advance/testdict.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/learn-python.iml" afterPath="$PROJECT_DIR$/.idea/learn-python.iml" />
+    <list default="true" id="c0afff5d-e8b1-46db-a53f-c54490926cab" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop_advance/unittest-test.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/oop_advance/enum.py" afterPath="$PROJECT_DIR$/oop_advance/learn-enum.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/learn_python$animal.coverage" NAME="animal Coverage Results" MODIFIED="1523691237300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python$Unittests_in_unittest_test_py.coverage" NAME="Unittests in unittest-test.py Coverage Results" MODIFIED="1528118813135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_advance" />
     <SUITE FILE_PATH="coverage/learn_python$return_function.coverage" NAME="return-function Coverage Results" MODIFIED="1523191930072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1523191933998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$learntype.coverage" NAME="learntype Coverage Results" MODIFIED="1523968906084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -74,14 +72,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdict.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testdict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oop_advance/testdict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="46">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unittest-test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oop_advance/unittest-test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,6 +168,7 @@
         <option value="$PROJECT_DIR$/oop_advance/unit-test.py" />
         <option value="$PROJECT_DIR$/oop_advance/mydict.py" />
         <option value="$PROJECT_DIR$/oop_advance/testdict.py" />
+        <option value="$PROJECT_DIR$/oop_advance/unittest-test.py" />
       </list>
     </option>
   </component>
@@ -228,6 +237,13 @@
               <item name="&lt; Python 3.6.4 (/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="python3.6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.4 (/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -253,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testdict.TestDict">
+  <component name="RunManager" selected="Python tests.Unittests in unittest-test.py">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,25 +377,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="metaclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_advance/metaclass.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="throwCatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,21 +411,36 @@
       <option name="_new_target" value="&quot;testdict.TestDict&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests in unittest-test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_advance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop_advance/unittest-test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.learn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.metaclass" />
-      <item index="2" class="java.lang.String" itemvalue="Python.throwCatch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.err_logging" />
-      <item index="4" class="java.lang.String" itemvalue="Python.err_raise" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for testdict.TestDict" />
+      <item index="1" class="java.lang.String" itemvalue="Python.throwCatch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.err_logging" />
+      <item index="3" class="java.lang.String" itemvalue="Python.err_raise" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for testdict.TestDict" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in unittest-test.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for testdict.TestDict" />
-        <item index="1" class="java.lang.String" itemvalue="Python.err_raise" />
-        <item index="2" class="java.lang.String" itemvalue="Python.err_logging" />
-        <item index="3" class="java.lang.String" itemvalue="Python.throwCatch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.metaclass" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in unittest-test.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for testdict.TestDict" />
+        <item index="2" class="java.lang.String" itemvalue="Python.err_raise" />
+        <item index="3" class="java.lang.String" itemvalue="Python.err_logging" />
+        <item index="4" class="java.lang.String" itemvalue="Python.throwCatch" />
       </list>
     </recent_temporary>
   </component>
@@ -698,19 +710,17 @@
       <option name="project" value="LOCAL" />
       <updated>1528088262706</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="learn unittest">
+      <created>1528117990133</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1528117990133</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_testdict_TestDict - 2018.06.04 at 20h 26m 01s.xml">
-      <configuration name="Unittests for testdict.TestDict" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_testdict_TestDict - 2018.06.04 at 20h 26m 48s.xml">
-      <configuration name="Unittests for testdict.TestDict" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_testdict_TestDict - 2018.06.04 at 20h 27m 44s.xml">
-      <configuration name="Unittests for testdict.TestDict" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_testdict_TestDict - 2018.06.04 at 20h 28m 10s.xml">
       <configuration name="Unittests for testdict.TestDict" configurationId="tests" />
     </history-entry>
@@ -719,6 +729,27 @@
     </history-entry>
     <history-entry file="Unittests_for_testdict_TestDict - 2018.06.04 at 21h 11m 30s.xml">
       <configuration name="Unittests for testdict.TestDict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittest-test_py - 2018.06.04 at 21h 15m 09s.xml">
+      <configuration name="Unittests in unittest-test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittest-test_py - 2018.06.04 at 21h 16m 45s.xml">
+      <configuration name="Unittests in unittest-test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittest-test_py - 2018.06.04 at 21h 18m 19s.xml">
+      <configuration name="Unittests in unittest-test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittest-test_py - 2018.06.04 at 21h 21m 51s.xml">
+      <configuration name="Unittests in unittest-test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittest-test_py - 2018.06.04 at 21h 21m 54s.xml">
+      <configuration name="Unittests in unittest-test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittest-test_py - 2018.06.04 at 21h 22m 45s.xml">
+      <configuration name="Unittests in unittest-test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittest-test_py - 2018.06.04 at 21h 26m 53s.xml">
+      <configuration name="Unittests in unittest-test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -738,16 +769,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34712413" sideWeight="0.50532484" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795155" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30978808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44860944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27753934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2774228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34611502" sideWeight="0.4946752" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34611502" sideWeight="0.4946752" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -813,7 +844,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learn function param" />
     <MESSAGE value="learn function recursive" />
     <MESSAGE value="learn function slice" />
     <MESSAGE value="learn function iterator" />
@@ -838,7 +868,8 @@
     <MESSAGE value="learn enum" />
     <MESSAGE value="learn metaclass" />
     <MESSAGE value="learn error" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn error" />
+    <MESSAGE value="learn unittest" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn unittest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -852,12 +883,17 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="124" />
+      <option name="time" value="138" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>s1.get_grade()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>reduce(lambda acc, x: acc + x, ns)</expression-string>
         <language-id>Python</language-id>
@@ -898,21 +934,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>isinstance(list(map(lambda x: DIGITS[x], splits[0])), it)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1239,14 +1263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop_advance/mydict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1265,11 +1281,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oop_advance/testdict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="46">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="604" column="0" lean-forward="false" selection-start-line="604" selection-start-column="0" selection-end-line="604" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_advance/unittest-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0afff5d-e8b1-46db-a53f-c54490926cab" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/learn-io/read-write.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learn-io/text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/learn-io/learn-dump.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/learn-io/learn-stringio-bytesio.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,9 +19,11 @@
     <SUITE FILE_PATH="coverage/learn_python$return_function.coverage" NAME="return-function Coverage Results" MODIFIED="1523191930072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1523191933998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$learntype.coverage" NAME="learntype Coverage Results" MODIFIED="1523968906084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python$learn_dump.coverage" NAME="learn-dump Coverage Results" MODIFIED="1528779019372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$generator.coverage" NAME="generator Coverage Results" MODIFIED="1522158195829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1523273623782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$sort.coverage" NAME="sort Coverage Results" MODIFIED="1522328656296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python$learn_stringio_bytesio.coverage" NAME="learn-stringio-bytesio Coverage Results" MODIFIED="1528535266249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$throwCatch.coverage" NAME="throwCatch Coverage Results" MODIFIED="1527515917816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$listcompr.coverage" NAME="listcompr Coverage Results" MODIFIED="1522155176086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python$metaclass.coverage" NAME="metaclass Coverage Results" MODIFIED="1527515185846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -107,21 +109,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read-write.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read-write.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn-io/read-write.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="402">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-io/text">
+      <file leaf-file-name="learn-stringio-bytesio.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn-io/learn-stringio-bytesio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="185">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learn-dump.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn-io/learn-dump.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -206,6 +218,8 @@
         <option value="$PROJECT_DIR$/oop_advance/doc-test.py" />
         <option value="$PROJECT_DIR$/learn-io/text" />
         <option value="$PROJECT_DIR$/learn-io/read-write.py" />
+        <option value="$PROJECT_DIR$/learn-io/learn-stringio-bytesio.py" />
+        <option value="$PROJECT_DIR$/learn-io/learn-dump.py" />
       </list>
     </option>
   </component>
@@ -283,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read-write">
+  <component name="RunManager" selected="Python.learn-dump">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,7 +367,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="err_raise" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="learn-dump" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -366,7 +380,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bugdebugtest/err_raise.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn-io/learn-dump.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="learn-stringio-bytesio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn-io/learn-stringio-bytesio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,21 +443,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for testdict.TestDict" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_advance" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testdict.TestDict&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="Unittests in unittest-test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -442,19 +460,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.learn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.err_raise" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for testdict.TestDict" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in unittest-test.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.doc-test" />
-      <item index="5" class="java.lang.String" itemvalue="Python.read-write" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in unittest-test.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.doc-test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.read-write" />
+      <item index="4" class="java.lang.String" itemvalue="Python.learn-stringio-bytesio" />
+      <item index="5" class="java.lang.String" itemvalue="Python.learn-dump" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.read-write" />
-        <item index="1" class="java.lang.String" itemvalue="Python.doc-test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in unittest-test.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for testdict.TestDict" />
-        <item index="4" class="java.lang.String" itemvalue="Python.err_raise" />
+        <item index="0" class="java.lang.String" itemvalue="Python.learn-dump" />
+        <item index="1" class="java.lang.String" itemvalue="Python.learn-stringio-bytesio" />
+        <item index="2" class="java.lang.String" itemvalue="Python.read-write" />
+        <item index="3" class="java.lang.String" itemvalue="Python.doc-test" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in unittest-test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -745,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528290999913</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="learn io">
+      <created>1528534592305</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1528534592305</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -872,7 +897,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learn function slice" />
     <MESSAGE value="learn function iterator" />
     <MESSAGE value="update" />
     <MESSAGE value="learn listcompr" />
@@ -897,7 +921,8 @@
     <MESSAGE value="learn error" />
     <MESSAGE value="learn unittest" />
     <MESSAGE value="learn doctest" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn doctest" />
+    <MESSAGE value="learn io" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn io" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -965,20 +990,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/define.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function/generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1119">
@@ -1336,8 +1347,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn-io/read-write.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="402">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-io/learn-dump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-io/learn-stringio-bytesio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>

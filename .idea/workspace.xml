@@ -811,7 +811,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528783018938</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="learn subprocess">
+      <created>1530351184445</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1530351184445</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -938,7 +945,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="learn listcompr" />
     <MESSAGE value="learn generator" />
     <MESSAGE value="learn iterator" />
@@ -963,7 +969,8 @@
     <MESSAGE value="learn doctest" />
     <MESSAGE value="learn io" />
     <MESSAGE value="learn dump" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn dump" />
+    <MESSAGE value="learn subprocess" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn subprocess" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

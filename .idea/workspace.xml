@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0afff5d-e8b1-46db-a53f-c54490926cab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/learn-processing-thread/learn-threadlocal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c0afff5d-e8b1-46db-a53f-c54490926cab" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +63,8 @@
       <file leaf-file-name="learn-threadlocal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn-processing-thread/learn-threadlocal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="862">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="118">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -812,7 +809,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530593886190</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="learn thread-local">
+      <created>1531284976243</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1531284976243</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,9 +869,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969216" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49361023" weight="0.32795155" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30978808" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30940345" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.44860944" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -940,7 +944,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learn generator" />
     <MESSAGE value="learn iterator" />
     <MESSAGE value="learn map &amp; reduce" />
     <MESSAGE value="learn filter" />
@@ -965,7 +968,8 @@
     <MESSAGE value="learn dump" />
     <MESSAGE value="learn subprocess" />
     <MESSAGE value="learn multi-thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn multi-thread" />
+    <MESSAGE value="learn thread-local" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn thread-local" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1387,8 +1391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn-processing-thread/learn-threadlocal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="118">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
